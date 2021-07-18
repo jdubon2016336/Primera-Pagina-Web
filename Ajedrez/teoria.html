@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Conoce la Teoría del Juego</title>
+
+    <link rel="shortcut icon" href="img/icono.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilos-teoria.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../Ajedrez/index.html">Inicio</a>
+            <a href="../Ajedrez/judagores.html">Jugadores</a>
+            <a href="#">Aprende a Jugar</a>
+        </nav>
+        <section class="textos-header">
+            <h1>Aprende a Jugar</h1>
+            <h2>Conoce la Teoría del Juego</h2>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" 
+            preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-9.87,40.95 C184.25,159.38 335.50,-11.34 508.17,23.19 L500.00,150.00 L0.00,150.00 Z" 
+            style="stroke: none; fill: #f2f2f2;"></path></svg></div>
+    </header>
+    <main>
+        <section class="indice">
+            <h2 class="titulo-indice">Contenido</h2>
+            <div class="contenedor-indice">   
+        <ol>
+            <li><a href="#indice-1">La Partida</a>
+                <ul>
+                    <li><a href="#indice-1-1">Objetivo de la partida</a> </li>
+                    <li><a href="#indice-1-2">Aspectos fundamentales</a> </li>
+                </ul>
+            </li>
+            <li><a href="#indice-2">Tablero y Piezas</a>
+                <ul>
+                    <li><a href="#indice-2-1">Tablero</a></li>
+                    <li><a href="#indice-2-2">Piezas</a></li>
+                </ul>
+            </li>
+            <li><a href="#indice-3">Colocación de las piezas</a></li>
+            <li><a href="#indice-4">Movimiento y captura</a>
+                <ul>
+                    <li><a href="#indice-4-1">Ataque de las piezas</a></li>
+                    <li><a href="#indice-4-2">Realización de jugadas</a></li>
+                </ul>
+            </li>
+            <li><a href="#indice-5">La Torre</a>
+                <ul>
+                    <li><a href="#indice-5-1">Torre con piezas interpuestas</a></li>
+                </ul>
+            </li>
+            <li><a href="#indice-6">El Alfil</a>
+                <ul>
+                    <li><a href="#indice-6-1">Captura del alfil</a></li>
+                </ul>
+            </li>
+            <li><a href="#indice-7">La Dama</a>
+                <ul>
+                    <li><a href="#indice-7-1">La dama tiene una gran cobertura</a></li>
+                </ul>
+            </li>
+            <li><a href="#indice-8">El Rey</a>
+                <ul>
+                    <li><a href="#indice-8-1">El rey aveces no puede capturar</a></li>
+                </ul>
+            </li>
+            <li><a href="#indice-9">El Caballo</a>
+                <ul>
+                    <li><a href="#indice-9-1">Movimiento extraordinario del caballo</a></li>
+                </ul>
+            </li>
+            <li><a href="#indice-10">El Peón</a>
+                <ul>
+                    <li><a href="#indice-10-1">La promoción del peón</a></li>
+                    <li><a href="#indice-10-2">Formas de captura del peón</a></li>
+                </ul>
+            </li>
+            <li><a href="#indice-11">Captura al paso</a></li>
+            <li><a href="#indice-12">El Jaque</a></li>
+            <li><a href="#indice-13">Defensas contra el jaque</a></li>
+            <li><a href="#indice-14">El Mate</a></li>
+            <li><a href="#indice-15">El Enroque</a>
+                <ul>
+                    <li><a href="#indice-15-1">Enroque corto</a></li>
+                    <li><a href="#indice-15-2">Enroque largo</a></li>
+                </ul>
+            </li>
+            <li><a href="#indice-16">Situaciones en las que es imposible enrocar</a></li>
+        </ol>
+            </div>
+            
+        </section>
+        <section class="contenedor">
+            <h2 class="titulo" id="indice-1">La Partida</h2>
+            <div class="contenedor-piezas">
+                <img src="img/piezas.png" alt="" class="imagen-partida">
+                <div class="contenido-textos">
+                    <p>
+                        El ajedrez se juega entre dos jugadores, que conducen cada uno las piezas de un color colocadas sobre el llamado tablero de ajedrez. Cada jugador efectúa por turno su jugada, que consiste en mover una de las piezas propias a una casilla, según las reglas del movimiento de las piezas, que luego explicaremos.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="contenedor">
+            <div class="contenedor-teoria">
+                <div class="contenido-textos">
+                    <h3 id="indice-1-1">Objetivo de la partida</h3>
+                    <p>
+                        El objetivo básico de la partida de ajedrez es dar mate al Rey adversario, y eso solo puede lograrse mediante la colaboración de todas las piezas y el juego correcto basado en planes estratégicos. La partida termina cuando uno de los jugadores da mate a su rival, pero también cuando un jugador, viéndose inevitablemente perdido, no quiere esperar al mate, y declara que se rinde o abandona.   
+                    </p>
+                    <p>
+                        También puede terminar la partida cuando, debido a la igualdad reinante, y una vez que la mayoría de las piezas han sido eliminadas, ninguno de los dos bandos puede lograr el mate. En tal caso, la partida termina en empate o tablas.
+                    </p>
+                </div> 
+                <img src="img/teoria 1.jpg" alt="" class="imagen-partida2">
+            </div>
+        </section>
+        <section class="contenedor">
+            <div class="contenedor-teoria">
+                <img src="img/teoria 2.jpg" alt="" class="imagen-partida3">
+                <div class="contenido-textos">
+                    <h3 id="indice-1-2">Aspectos fundamentales</h3>
+                    <p>
+                        Puesto que el objetivo final de la partida de ajedrez es dar mate al rival, a este fin deben atender todas las operaciones de la partida. Como símil adecuado puede ponerse el de dos ejércitos medievales que libran una batalla. El objetivo final sería capturar el Rey del ejército rival, pero también objetivos intermedios, como pueden ser la eliminación o debilitamiento de una parte de dicho ejército.   
+                    </p>
+                    <p>
+                        Empezamos a tomar conocimiento de conceptos como ataque y defensa, no solo del Rey (la pieza más importante, pues es la que decide el resultado de la partida) sino también de unidades menos valiosas, pero que forman parte de dicho ejército y contribuyen a la victoria o derrota del conjunto. Veremos también la importancia de cada pieza, y como en ocasiones puede sacrificarse alguna a fin de conseguir un objetivo más valioso.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="contenedor">
+            <h2 class="titulo" id="indice-2">Tablero y Piezas</h2>
+            <div class="contenedor-teoria">
+                <div class="contenido-textos">
+                    <h3 id="indice-2-1">Tablero</h3>
+                    <p>
+                        El tablero de ajedrez es bien conocido. Contiene 64 cuadros o casillas, alternativamente claras y oscuras (blancas y negras) formando un cuadrado de 8 casillas por lado. Generalmente está hecho de madera o plástico, al igual que las piezas, que son de dos colores, normalmente blancas y negras. Aunque existen muchos modelos de piezas, algunas de verdadera fantasía, el modelo que tiene más aceptación es el llamado «Staunton», de uso predilecto en competiciones oficiales. A efectos de explicar el movimiento de las piezas, se denominan columnas los grupos de ocho casillas verticales, filas son los grupos de ocho casillas horizontales y por último diagonales, los grupos formados por casillas unidas diagonalmente entre sí, y que pueden tener longitud variable. Una característica especial de las diagonales es que, a diferencia de las filas y columnas, están siempre formadas por casillas del mismo color. El diagrama es una representación del tablero vacío, donde puede observarse la colocación del cuadro blanco a la derecha (y abajo).
+                    </p>
+                </div>
+                <img src="img/tablero.png" alt="" class="imagen-tp">
+            </div>
+        </section>
+        <section class="contenedor">
+            <div class="contenedor-teoria">
+                <img src="img/teoria 3.jpg" alt="" class="imagen-tp2">
+                <div class="contenido-textos">
+                    <h3 id="indice-2-2">Piezas</h3>
+                    <p>
+                        Las piezas son, como hemos dicho, los componentes del ejército de cada bando, y son de distinto color para cada uno de los dos jugadores, normalmente son blancas y negras. Cada uno de los jugadores dispone, al empezar la partida, de las mismas fuerzas, formadas por 16 piezas por cada bando, y que son las siguientes: (Rey, Dama, Alfil, Caballo, Torre, Peón).
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="contenedor">
+            <h2 class="titulo" id="indice-3">Colocación de las piezas</h2>
+            <div class="contenedor-teoria">
+                <div class="contenido-textos">
+                    <p>
+                        Cada jugador conducirá las piezas de un color, y el jugador que lleva las blancas es el que efectúa siempre la primera jugada. En la figura siguiente se puede observar que los dos Reyes (blanco y negro) se encuentran en la misma columna (columna E).
+                    </p>
+                    <p>
+                        El Rey y la Dama ocupan las dos casillas centrales de la primera fila de modo que la Dama esté sobre la casilla de su mismo color. A cada lado de estas dos piezas se colocan, por este orden, un Alfil, un Caballo y una Torre con lo que se completa la primera fila. En la segunda fila se colocan los ocho peones de cada bando. La colocación completa se puede ver en el diagrama.
+                    </p>
+                </div>
+                <img src="img/piezas.png" alt="" class="imagen-colocacion">
+            </div>
+        </section>
+        <section class="contenedor">
+            <h2 class="titulo" id="indice-4">Movimiento y captura</h2>
+            <div class="contenedor-teoria">
+                <img src="img/teoria 5.jpg" alt="" class="imagen-mc">
+                <div class="contenido-textos">
+                    <p>
+                        Cada jugador efectúa por turno una jugada, empezando siempre la partida las blancas. Una jugada consiste en mover una pieza a cualquiera de las casillas que permite su movimiento, que más adelante explicaremos. Cuando una pieza se coloca en una casilla ocupada por una pieza enemiga, la captura. Dicha captura consiste en retirar la pieza enemiga del tablero, eliminándola de la partida. No está permitido capturar las propias piezas. Tampoco puede pasarse por encima de otra pieza sea propia o contraria, ni de ningún modo pueden colocarse dos piezas en la misma casilla.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="contenedor">
+            <div class="contenedor-teoria">
+                <div class="contenido-textos">
+                    <h3 id="indice-4-1">Ataque de las piezas</h3>
+                    <p>
+                        Cuando una pieza tiene la posibilidad de capturar a otra, se dice que está atacándola o amenazándola. Dicha amenaza no es obligatoria realizarla, como es el caso, por ejemplo, en el juego de Damas, sino que cada jugador decide en su caso, si le conviene o no capturar la pieza atacada. Un caso especial es la amenaza al Rey, llamada jaque. Puesto que la captura de esta pieza termina la partida con la victoria del bando atacante, el jugador que está sometido a tal ataque tiene la obligación de defenderse del jaque. Toda jugada que no cumpla tal requisito sería ilegal y no puede realizarse. Solo en el caso de que no exista forma de evitar dicho ataque se produce el jaque-mate y la derrota del bando atacado, como veremos más adelante.
+                    </p>
+                </div>
+                <img src="img/teroria 4.jpg" alt="" class="imagen-mc2">
+            </div>
+        </section>
+        <section class="contenedor">
+            <div class="contenedor-teoria">
+                <img src="img/historia 4.jpg" alt="" class="imagen-mc3">
+                <div class="contenido-textos">
+                    <h3 id="indice-4-2">Realización de jugadas</h3>
+                    <p>
+                        La jugada es el movimiento de una pieza que realiza el jugador cuando es su turno. Dicha jugada debe ser conforme al reglamento, es decir debe ceñirse al movimiento de la pieza en cuestión, y no debe dar lugar a una situación donde el propio Rey pueda ser capturado (es decir, dejar el propio Rey en jaque). Toda jugada ilegal debe ser retirada y realizar en su lugar una jugada reglamentaria, pero una vez tal jugada legal ha sido realizada, el turno de juego pasa al contrincante y no es posible rectificarla. Así pues, en cuanto la mano del jugador ha soltado la pieza, se considera terminada la jugada, y no es posible volverla atrás.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="contenedor">
+            <h2 class="titulo" id="indice-5"> La Torre</h2>
+            <div class="contenedor-piezas">
+                <div class="contenido-textos">
+                    <p>
+                        La Torre se mueve siempre en línea recta. Tanto en dirección horizontal como vertical, es decir por columnas o por filas, y cualquier número de casillas, siempre en la misma dirección.
+                    </p>
+                </div>
+                <img src="img/torre.jpg" alt="" class="imagen-torre">
+            </div>
+        </section>
+        <section class="contenedor">
+            <div class="contenedor-piezas">
+                <img src="img/torre 2.jpg" alt="" class="imagen-torre2">
+                <div class="contenido-textos">
+                    <h3 id="indice-5-1">Torre con piezas interpuestas</h3>
+                    <p>
+                        La pieza propia, (el Caballo) le corta el paso en la dirección en que se encuentra, y no puede jugar a ninguna casilla a su izquierda.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="contenedor">
+            <h2 class="titulo" id="indice-6">El Alfil</h2>
+            <div class="contenedor-piezas">
+                <div class="contenido-textos">
+                    <p>
+                        El Alfil mueve en diagonal, y al igual que la Torre, cualquier número de casillas, siempre en la misma dirección. Como consecuencia de ello, un Alfil colocado en una casilla blanca nunca podrá jugarse a ninguna casilla negra.
+                    </p>
+                </div>
+                <img src="img/alfil 1.jpg" alt=""class="imagen-alfil">
+            </div>
+        </section>
+        <section class="contenedor">
+            <div class="contenedor-piezas">
+                <img src="img/alfil 2.jpg" alt="" class="imagen-alfil2">
+                <div class="contenido-textos">
+                    <h3 id="indice-6-1">Captura del alfil </h3>
+                    <p>
+                        Las posibilidades de captura del Alfil están ilustradas en el diagrama siguiente. Aunque este alfil no puede ir a las casillas que están más allá de dicha pieza, ni pasar por encima del Caballo, su propia pieza.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="contenedor">
+            <h2 class="titulo" id="indice-7">La Dama</h2>
+            <div class="contenedor-piezas">
+                <div class="contenido-textos">
+                    <p>
+                        Pieza de máximo valor (después del Rey, claro) por su enorme movilidad, pues puede moverse como una Torre o como un Alfil. Es decir, puede moverse tanto en diagonal como por filas o columnas, y siempre cualquier número de casillas. 
+                    </p>
+                </div>
+                <img src="img/dama 1.jpg" alt="" class="imagen-dama">
+            </div>
+        </section>
+        <section class="contenedor">
+            <div class="contenedor-piezas">
+                <img src="img/dama 2.jpg" alt="" class="imagen-dama2">
+                <div class="contenido-textos">
+                    <h3 id="indice-7-1">La dama tiene una gran cobertura</h3>
+                    <p>
+                        Puede tomar cualquiera de las piezas negras, pero no pasar por encima de ellas, ni tampoco de las propias piezas (por eso no puede capturar el Caballo negro del rincón).
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="contenedor">
+            <h2 class="titulo" id="indice-8">El Rey</h2>
+            <div class="contenedor-piezas">
+                <div class="contenido-textos">
+                    <p>
+                        Al igual que la Dama, el Rey se mueve en todas las direcciones. Pero hay una gran diferencia, ya que solo puede hacerlo a una casilla de distancia. Aquí solo nos referimos al movimiento del Rey ya que si no lo relativizamos entonces hay que concluir que TODA la partida se juega en torno a la figura de esta pieza. El movimiento del Rey queda ilustrado en el diagrama anterior.
+                    </p>
+                </div>
+                <img src="img/rey 1.jpg" alt="" class="imagen-rey">
+            </div>
+        </section>
+        <section class="contenedor">
+            <div class="contenedor-piezas">
+                <img src="img/rey 2.jpg" alt="" class="imagen-rey2">
+                <div class="contenido-textos">
+                    <h3 id="indice-8-1">El rey aveces no puede capturar</h3>
+                    <p>
+                        Al igual que las demás piezas, el Rey puede capturar cualquier pieza enemiga que esté a su alcance, pero aquí existe una salvedad, pues tal captura sería ilegal si con ella el propio Rey pudiera ser a su vez capturado (recuérdese que es ilegal cualquier jugada que deja el propio Rey en jaque). Aunque no puede tomar el Caballo, ya que con ello dejaría el Rey bajo el jaque del Alfil, lo cual es ilegal.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="contenedor">
+            <h2 class="titulo" id="indice-9">El Caballo</h2>
+            <div class="contenedor-piezas">
+                <div class="contenido-textos">
+                    <p>
+                        Desde la perspectiva de los movimientos, el Caballo es la pieza que mayores dificultades presenta. Dicho movimiento, a diferencia de las otras piezas, no es rectilíneo: salta formando una «L» de dos casillas por un lado y una casilla por el otro. En el diagrama se señalan todas las casillas a las que el Caballo puede ir.
+                    </p>
+                </div>
+                <img src="img/caballo 1.jpg" alt="" class="imagen-caballo">
+            </div>
+        </section>
+        <section class="contenedor">
+            <div class="contenedor-piezas">
+                <img src="img/caballo 2.jpg" alt="" class="imagen-caballo2">
+                <div class="contenido-textos">
+                    <h3 id="indice-9-1">Movimiento extraordinario del caballo</h3>
+                    <p>
+                        Esto puede verse en el diagrama, donde el Caballo puede capturar la Torre negra, sin que ninguno de los Alfiles enemigos le obstaculicen el paso. Sin embargo, como cualquier otra pieza, no puede ir a casillas ocupadas por sus propias piezas.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="contenedor">
+            <h2 class="titulo" id="indice-10">El Peón</h2>
+            <div class="contenedor-piezas">
+                <div class="contenido-textos">
+                    <p>
+                        Vertical, un movimiento distinto, vertical es el movimiento del Peón: una casilla adelante en la columna en que se halla situado. Al contrario de las restantes piezas, el Peón siempre avanza, no puede retroceder. Excepcionalmente, cuando un Peón se encuentra en su casilla de origen —la segunda línea— puede avanzar uno o dos pasos, según convenga al jugador. En el diagrama se demuestran las posibles jugadas de los peones.
+                    </p>
+                </div>
+                <img src="img/peon 1.jpg" alt="" class="imagen-peon">
+            </div>
+        </section>
+        <section class="contenedor">
+            <div class="contenedor-piezas">
+                <img src="img/peon 2.jpg" alt="" class="imagen-peon2">
+                <div class="contenido-textos">
+                    <h3 id="indice-10-1">La promoción del peón</h3>
+                    <p>
+                        Como se ha dicho, el Peón no puede retroceder, así que cuando un Peón llega a la octava línea —primera del adversario—, ya no puede hacer ninguna jugada más, sino que, en ese momento, se promociona y se convierte en la pieza que se prefiera, a excepción del Rey, puesto que solamente puede haber un Rey en cada bando.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="contenedor">
+            <div class="contenedor-peon">
+                <div class="contenido-textos">
+                    <h3 id="indice-10-2">Formas de captura del peón</h3>
+                    <p>
+                        Otra particularidad del Peón, que le diferencia de las demás piezas, es que además de no poder retroceder, captura de distinta forma a la que avanza: Captura en diagonal, siempre un solo paso, en dirección a las casillas adyacentes. En cambio, si una pieza propia o contraria se encuentra en la casilla delante del Peón (adonde en otra circunstancia podría moverse) ya no podrá seguir avanzando. 
+                    </p>
+                    <p>
+                        Los dos peones de la columna de la derecha no pueden moverse, el otro Peón blanco puede tomar cualquiera de los Caballos negros o bien avanzar una casilla. En cambio, el Peón negro restante, puede tomar la Torre blanca, pero no avanzar, pues se lo impide el Alfil blanco.
+                    </p>
+                </div>
+                <img src="img/peon 3.jpg" alt="" class="imagen-peon3">
+            </div>
+        </section>
+        <section class="contenedor">
+            <h2 class="titulo" id="indice-11">Captura al paso</h2>
+            <div class="contenedor-teoria">
+                <img src="img/captura paso.gif" alt="" class="imagen-paso">
+                <div class="contenido-textos">
+                    <p>
+                        Manera especial de capturar, (captura «al paso»), es aplicable solamente a la captura de un Peón por otro Peón, y además en una situación determinada. Solo puede hacerse cuando un Peón acaba de mover dos pasos.
+                    </p>
+                    <p>
+                        Las blancas avanzan su Peón dos pasos, y se produce la situación del diagrama, donde le toca jugar a las negras. Las negras tienen ahora la opción de capturar el Peón blanco igual que si éste hubiera avanzado una sola casilla.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="contenedor">
+            <h2 class="titulo" id="indice-12">El Jaque</h2>
+            <div class="contenedor-teoria">
+                <div class="contenido-textos">
+                    <p>
+                        Su destino, el destino del Rey, decide la partida y solo es posible dar «jaque» al Rey. Por ello, cuando una pieza contraria amenaza capturarle, existe la obligación de evitar esta amenaza. Se dice en tal caso que el Rey está en jaque (amenazado). Si esta amenaza o jaque no puede evitarse mediante ninguna jugada legal, se dice que el jaque es mate y la partida ha terminado con la victoria del jugador que ha dado dicho mate. Es ilegal mover el Rey a una casilla amenazada por una pieza contraria.
+                    </p>
+                </div>
+                <img src="img/jaque.jpg" alt="" class="imagen-jaque">
+            </div>
+        </section>
+        <section class="contenedor">
+            <h2 class="titulo" id="indice-13">Defensas contra el jaque</h2>
+            <div class="contenedor-teoria">
+                <img src="img/defensa jaque.jpg" alt="" class="imagen-defensa">
+                <div class="contenido-textos">
+                    <p>
+                        Cuando nuestro Rey recibe un jaque, estamos en la obligación de evitar esa amenaza, salir del jaque. Es ilegal cualquier otra jugada que no cumpla dicho fin. Existen tres formas de salir del jaque, las cuales se ilustran en el diagrama. La Torre blanca está dando jaque.
+                    </p>
+                    <ol>
+                        <li>Mover el Rey a cualquier casilla donde no esté amenazado.</li>
+                        <li>Capturar la pieza que da jaque, con lo cual se evita la amenaza. En este caso el Alfil puede capturar la Torre.</li>
+                        <li>Interceptar la acción de la pieza agresora, interponiendo entre ella y el Rey, otra pieza. Para ello las negras pueden colocar su Caballo delante del Rey, cubriendo el jaque.</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+        <section class="contenedor">
+            <h2 class="titulo" id="indice-14">El Mate</h2>
+            <div class="contenedor-teoria">
+                <div class="contenido-textos">
+                    <p>
+                        Diagrama que nos dice que las blancas dan jaque con la Dama. Las negras no pueden evitar este jaque con ninguno de los métodos mencionados en la lección anterior. No pueden mover el Rey, ya que todas las casillas libres están amenazadas por alguna pieza blanca, ni tampoco pueden jugar a la casilla ocupada por su propia Torre. Tampoco pueden cubrir el jaque con ninguna de sus piezas.
+                    </p>
+                    <p>
+                        Por último, la opción restante, capturar la pieza que da jaque, es aquí imposible, ya que el Alfil negro, que podría capturar la Dama, no puede jugar, ya que con ello dejaría al Rey negro a merced de la Torre blanca y sería una jugada ilegal. Más adelante verás que en términos ajedrecísticos decimos que el Alfil «está clavado» por la Torre blanca. Dar jaque mate a nuestro rival es una de esas tantas cosas emocionantes que nos ofrece la práctica del ajedrez.
+                    </p>
+                </div>
+                <img src="img/mate.png" alt="" class="imagen-mate">
+            </div>
+        </section>
+        <section class="contenedor">
+            <h2 class="titulo" id="indice-15">El Enroque</h2>
+            <div class="contenedor-teoria">
+                <img src="img/enroque.jpg" alt="" class="imagen-enroque">
+                <div class="contenido-textos">
+                    <p>
+                        Jugada especial, el enroque, que se realiza con el Rey y una Torre. Es el único movimiento en el que se permite mover dos piezas en la misma jugada. Se realiza con el Rey y cualquiera de las dos Torres, siempre en la posición inicial de ambas piezas, de la siguiente manera: el Rey se mueve dos casillas en dirección a la Torre con la que piensa enrocarse. A continuación, y formando parte de la misma jugada, dicha Torre pasa por encima del Rey y se coloca a su lado, justo en la casilla siguiente. El enroque es corto o largo, según el flanco hacia donde el Rey se dirija.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="contenedor">
+            <div class="contenedor-teoria">
+                <div class="contenido-textos">
+                    <h3 id="indice-15-1">Enroque corto</h3>
+                    <p>
+                        En los siguientes diagramas se muestra la maniobra del enroque con la Torre del lado del Rey, (llamado enroque corto, ya que como pronto veremos la Torre recorre una casilla menos que el caso del enroque largo).
+                    </p>
+                    <p>
+                        Estas son las posiciones inicial y final después de realizar el enroque con la Torre del lado del Rey (llamado enroque corto).
+                    </p>
+                </div>
+                <img src="img/enroque corto.gif" alt="" class="imagen-OO">
+            </div>
+        </section>
+        <section class="contenedor">
+            <div class="contenedor-teoria">
+                <img src="img/enroque largo.gif" alt="" class="imagen-OOO">
+                <div class="contenido-textos">
+                    <h3 id="indice-15-2">Enroque largo</h3>
+                    <p>
+                        En los dos diagramas siguientes se muestra la maniobra del enroque con la Torre del lado de la Dama, (llamado enroque largo, ya que la Torre recorre una casilla más que el caso del enroque corto).
+                    </p>
+                    <p>
+                        Observa que el Rey realiza en ambos enroques un movimiento similar, dos casillas en dirección a la Torre.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="contenedor">
+            <h2 class="titulo" id="indice-16">Situaciones en las que es imposible enrocar</h2>
+            <div class="contenedor-teoria">
+                <div class="contenido-textos">
+                    <ol>
+                        <li>Cuando el Rey está en jaque. Así no es posible contrarrestar un jaque mediante el enroque. Sin embargo, más tarde, evitado el jaque, si será posible el enroque.</li>
+                        <li>Cuando una de las dos piezas participantes, el Rey o la Torre, han sido movidas previamente, aun cuando luego hayan vuelto a la posición original. Es decir, no pueden haber hecho ninguna jugada en la partida, lo que impediría definitivamente el enroque. Es de hacer notar que, si una de las Torres ha sido movida, eso impide para siempre el enroque con dicha Torre, pero todavía será posible el enroque con la otra Torre. En cambio, si es el Rey la pieza que ha sido movida, ya no será posible ningún enroque.</li>
+                        <li>Cuando entre el Rey y la Torre hay alguna pieza, tanto propia como contraria, ya que no es posible saltar sobre ellas.</li>
+                        <li>Cuando la casilla que debe cruzar el Rey está amenazada por alguna pieza enemiga, y con mayor motivo, si lo está la casilla donde se coloca dicho Rey, ya que eso sería dejarlo en jaque.</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="contenedor-footer">
+            <div class="objeto-footer">
+                <h4>E-mail</h4>
+                <p>jdubon-2016336@kinal.edu.gt</p>
+            </div>
+            <div class="objeto-footer">
+                <h4>Teléfono</h4>
+                <p>4567836</p>
+            </div>
+            <div class="objeto-footer">
+                <h4>Sitios Web</h4>
+                <p><a href="https://www.chess.com/home" target="_blank">Chess.com</a></p>
+                <p><a href="https://chess24.com/es" target="_blank">Chess24.com</a></p>
+            </div>
+        </div>
+        <h2 class="titulo-final"> &copy; Javier Alejandro Dubón Ubedo | KINAL </h2>
+    </footer>
+</body>
+</html>
